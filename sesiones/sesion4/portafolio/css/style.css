@@ -10,3 +10,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.nav-link{
+    color: #f5f6f7;
+}
