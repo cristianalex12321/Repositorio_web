@@ -54,6 +54,15 @@ h1{
 }
 /* fin de hero */
 
+/* inicio de hero-inferior */
+
+
+
+/* fin de hero-inferior */
+
+
+
+
 /*reglas responsive*/
 
 @media  screen and (max-width:767px) {
@@ -63,3 +72,10 @@ h1{
     }
 }
 
+
+/* limitar el tamanio maximo de tecnologias */
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen{
+        max-width: 700px;
+    }
+}
