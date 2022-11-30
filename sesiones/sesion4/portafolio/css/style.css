@@ -1,4 +1,20 @@
 
+/* Estilos generales */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+
+
+
 /*Barra navegacion*/
 .navbar{
     padding: 2rem;
@@ -11,6 +27,39 @@
     justify-content: space-between;
 }
 
-.nav-link{
-    color: #f5f6f7;
+/* fin barra de navegacion */
+
+/* inicio de hero */
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
 }
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-imagen-desarrollador{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: solid 4px black;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color:cadetblue;
+}
+/* fin de hero */
+
+/*reglas responsive*/
+
+@media  screen and (max-width:767px) {
+    /* ocultamos el icono de la barra */
+    .navbar-brand{
+        display: none;
+    }
+}
+
